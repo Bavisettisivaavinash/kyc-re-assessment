@@ -5,7 +5,7 @@ Attribute Matching and Recommendation for Bank Data
 
 This project aims to compare and evaluate the accuracy of third-party data sources against a bank's internal database. Using PySpark and SequenceMatcher, we calculate the match ratios for various attributes (e.g., Bank Name, Address, City) between the bank's data and two external sources. The project then recommends which third-party source the bank should use for future data requests based on the overall matching percentages.
 
-# The project's primary goals are to:
+The project's primary goals are to:
 	Clean and Prepare Data: Load and preprocess data from the bank and two third-party sources.
 	Calculate Match Ratios: Use SequenceMatcher to compute similarity scores between corresponding attributes in the datasets.
 	Evaluate Data Sources: Calculate the overall matching percentage for each attribute from both sources.
