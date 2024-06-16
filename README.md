@@ -1,5 +1,5 @@
 # kyc-re-assessment
-# Data Analytics competetion by Barclays
+# Data Analytics assessment by Barclays
 
 Attribute Matching and Recommendation for Bank Data
 
