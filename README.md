@@ -5,13 +5,13 @@ Attribute Matching and Recommendation for Bank Data
 
 This project aims to compare and evaluate the accuracy of third-party data sources against a bank's internal database. Using PySpark and SequenceMatcher, we calculate the match ratios for various attributes (e.g., Bank Name, Address, City) between the bank's data and two external sources. The project then recommends which third-party source the bank should use for future data requests based on the overall matching percentages.
 
-The project's primary goals are to:
+# The project's primary goals are to:
 	Clean and Prepare Data: Load and preprocess data from the bank and two third-party sources.
 	Calculate Match Ratios: Use SequenceMatcher to compute similarity scores between corresponding attributes in the datasets.
 	Evaluate Data Sources: Calculate the overall matching percentage for each attribute from both sources.
 	Recommendation: Determine the most reliable data source based on the calculated match ratios.
 
-Key Components:
+# Key Components:
 1. Data Loading and Cleaning
 	Data Sources: Three CSV files - one for the bank's database and two for third-party data sources.
 	Spark Session: Create a Spark session and load the data into DataFrames.
@@ -26,11 +26,12 @@ Key Components:
 4. Recommendation
 	Decision Logic: Recommend the data source with the highest overall matching percentages for most attributes.
 
-Prerequisites:
-	Python 3.x
-	PySpark
+# Prerequisites:
+	Python 3.x,
+	PySpark,
 	Difflib
-	Running the Project
+ 
+# Running the Project
 	Setup Spark Session: Initialize a Spark session.
 	Load Data: Load the CSV files into DataFrames.
 	Data Cleaning: Ensure all attributes are in string format.
